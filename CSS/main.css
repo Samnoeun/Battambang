@@ -1,0 +1,72 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    height: 250vh;
+    flex-direction: column;
+}
+nav{
+    background-color: aqua;
+    flex: 0.5;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+ul li{
+    padding: 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(193, 31, 85);
+}
+header{
+    background-color: antiquewhite;
+    /* flex: 1; */
+    height: 160vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: column;
+    background: url(../images/BTB.png);
+    background-size: cover;
+}
+header h1{
+    color: teal;
+    font-size: 8rem;
+}
+header p{
+    color: white;
+    font-size: 1rem;
+}
+strong{
+    color: black;
+}
+header button{
+    background: gray;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;color: black;
+}
+section{
+    display: flex;
+    background-color: blue;
+    flex: 4;    
+}
+aside{
+    background-color: yellow;
+    flex: 0.3;
+}
+main{
+    background-color: green;
+    flex: 1.5;
+}
+   
+footer{
+    background-color: rgb(217, 90, 112);
+    flex: 10;
+    text-align: center;
+}
